@@ -39,7 +39,7 @@ public class PointofIntrest : MonoBehaviour {
     IEnumerator AtPoint()
     {
 
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(.5f);
         MoveToPoint(false);
 
     }
@@ -53,14 +53,14 @@ public class PointofIntrest : MonoBehaviour {
         if (other.CompareTag("NPC")&& other.name==NPC.name && AmAtPoint == true)
         {
             Debug.Log(other.tag);
-            if (Time.time - lastEntered > 3f)
-            {
+
                 StartCoroutine(AtPoint());
                 lastEntered = Time.time;
-            }
+            
         }
-        if (other.gameObject.transform.position == pm.points[CurrentIndex].transform.position)
+        if (other.gameObject == pm.points[CurrentIndex])
         {
+            Debug.Log("At Point ");
             AmAtPoint = true;
             //nvma.updateRotation = false;
             //nvma.updatePosition = false;

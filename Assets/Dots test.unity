@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641252, b: 0.574817, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -125,7 +125,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &10878501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -207,7 +207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &666409302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -321,6 +321,10 @@ Prefab:
       propertyPath: SteeringPerceiver
       value: 
       objectReference: {fileID: 1952957129}
+    - target: {fileID: 1097934180403230, guid: b4611e9ef39101b4caa984dea66a20f7, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b4611e9ef39101b4caa984dea66a20f7, type: 2}
   m_IsPrefabParent: 0
@@ -368,6 +372,10 @@ Prefab:
       propertyPath: Environments.Array.data[0]
       value: 
       objectReference: {fileID: 1562729289}
+    - target: {fileID: 1212610281117350, guid: 9de3e9bfe1929a648ad81fcafd5778c9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9de3e9bfe1929a648ad81fcafd5778c9, type: 2}
   m_IsPrefabParent: 0
@@ -388,7 +396,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1083349393
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -477,7 +485,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1153677483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -805,7 +813,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1251869758
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -887,7 +895,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1339481821
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -969,7 +977,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1386638960
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1073,6 +1081,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 13
       objectReference: {fileID: 0}
+    - target: {fileID: 1653680731165888, guid: e973bc8d6eec7044da58bd1397aafd15, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e973bc8d6eec7044da58bd1397aafd15, type: 2}
   m_IsPrefabParent: 0
@@ -1093,7 +1105,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1524656406
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1419,7 +1431,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!23 &1812066045
 MeshRenderer:
   m_ObjectHideFlags: 0
